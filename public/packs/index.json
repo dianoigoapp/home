@@ -1,0 +1,10 @@
+{
+  "packs": [
+    {
+      "courseId": "fundamentos",
+      "moduleSlug": "revelacao-escritura",
+      "packId": "fundamentos.revelacao-escritura",
+      "path": "fundamentos/revelacao-escritura"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+:root {
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+
+  /* Tipografia com personalidade */
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body:    'DM Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-reading: 'Lora', ui-serif, Georgia, serif;
+  --font-mono:    'DM Mono', 'SFMono-Regular', Menlo, Monaco, Consolas, monospace;
+
+  /* Aliases de compatibilidade */
+  --font-sans:  var(--font-body);
+  --font-serif: var(--font-reading);
+
+  --text-base: 16px;
+  --line-base: 1.65;
+  --reader-max: 900px;
+
+  /* Animações */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 140ms;
+  --duration-base: 220ms;
+  --duration-slow: 400ms;
+}
